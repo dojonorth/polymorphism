@@ -1,0 +1,7 @@
+import sbt._
+
+name := "north-code-dojo-3"
+
+version := "1.0"
+
+libraryDependencies ++= Seq("junit" % "junit" % "4.11" % "test")
