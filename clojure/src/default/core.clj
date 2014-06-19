@@ -1,6 +1,16 @@
 (ns default.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn decode-audio
+  "Decode Audio from a media object"
+  [media]
+  "")
+
+(defn decode-video
+  "Decode Video from a media object"
+  [media]
+  "")
+
+(defn create
+  "Create a media object"
+  [type audio video]
+  {})
