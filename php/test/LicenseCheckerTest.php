@@ -13,8 +13,8 @@ class LicenseCheckerTest extends \PHPUnit_Framework_TestCase
 
     public function __construct()
     {
-        $this->factory = new MediaFactory();
-        $this->underTest = new LicenseChecker();
+        $this->factory = new MediaFactory;
+        $this->underTest = new LicenseChecker;
     }
 
     /** @test * */

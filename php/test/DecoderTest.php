@@ -1,11 +1,7 @@
 <?php
 
-
-namespace bbc\polymorphism\dojo\test;
-require "vendor/autoload.php";
-
-use bbc\polymorphism\dojo\MediaFactory;
-use bbc\polymorphism\dojo\Decoder;
+use \bbc\polymorphism\dojo\MediaFactory;
+use \bbc\polymorphism\dojo\Decoder;
 
 class DecoderTest extends \PHPUnit_Framework_TestCase
 {
@@ -16,8 +12,8 @@ class DecoderTest extends \PHPUnit_Framework_TestCase
 
     public function __construct()
     {
-        $this->factory = new MediaFactory();
-        $this->underTest = new Decoder();
+        $this->factory = new MediaFactory;
+        $this->underTest = new Decoder;
     }
 
     /** @test */

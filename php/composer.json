@@ -7,8 +7,8 @@
     },
     "autoload": {
         "psr-4": {
-            "\\bbc\\polymorphism\\dojo\\test": "test",
-            "\\bbc\\polymorphism\\dojo": "src"
+            "bbc\\polymorphism\\dojo\\test\\": "test",
+            "bbc\\polymorphism\\dojo\\": "src"
         }
     }
 }
