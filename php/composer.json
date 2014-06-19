@@ -1,0 +1,14 @@
+{
+    "name": "polymorphism-dojo",
+    "description": "Polymorphism Dojo",
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\bbc\\polymorphism\\dojo\\test": "test",
+            "\\bbc\\polymorphism\\dojo": "src"
+        }
+    }
+}
