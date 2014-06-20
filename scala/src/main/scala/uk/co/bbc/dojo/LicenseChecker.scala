@@ -1,5 +1,15 @@
 package uk.co.bbc.dojo
 
 class LicenseChecker {
-  def needsLicense(toCheck: Media): Boolean = ???
+  /**
+   * Note: took a different approach with licence checker (basically could have
+   * taken this same approach with decoding, too, but doing it this way gives
+   * me the ability to try both ways in one dojo).
+   */
+  def needsLicense(toCheck: Media): Boolean = {
+    toCheck match {
+      case m: Video if m.video.length < 5 => false
+      case _ => true
+    }
+  }
 }
