@@ -1,11 +1,10 @@
 How to run the Clojure Tests
 ============================
 
-The easiest way is to download lein:
+Running Tests
+-------------
 
-https://github.com/technomancy/leiningen#installation
-
-Then run
+Do:
 
 lein test
 
@@ -15,3 +14,9 @@ You may need to turn off your Socks Proxy to make it work.
 
 On a Mac:
 Go > Network > Ethernet > Advanced > Proxies > Turn off Socks Proxy
+
+Installing Lein
+---------------
+
+https://github.com/technomancy/leiningen#installation
+
