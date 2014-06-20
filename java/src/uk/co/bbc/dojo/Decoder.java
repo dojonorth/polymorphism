@@ -3,10 +3,10 @@ package uk.co.bbc.dojo;
 public class Decoder {
 
     public String decodeVideo(Media toDecode) {
-        return null;
+        return toDecode.decodeVideo();
     }
 
     public String decodeAudio(Media toDecode) {
-        return null;
+        return toDecode.decodeAudio();
     }
 }
