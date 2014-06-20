@@ -10,3 +10,8 @@ Then run
 lein test
 
 In this directory
+
+You may need to turn off your Socks Proxy to make it work.
+
+On a Mac:
+Go > Network > Ethernet > Advanced > Proxies > Turn off Socks Proxy
