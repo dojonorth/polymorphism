@@ -1,4 +1,4 @@
-(ns default.core)
+(ns polymorphism.core)
 
 (defn decode-audio
   "Decode Audio from a media object"
