@@ -8,7 +8,7 @@ class LicenseChecker {
    */
   def needsLicense(toCheck: Media): Boolean = {
     toCheck match {
-      case Media("simple",_,_,_,_) => toCheck.video.length > 4
+      case Media(_,_,Decoders.simpleAudioDecoder,Decoders.simpleVideoDecoder) => toCheck.video.length > 4
       case _ => true
     }
   }
