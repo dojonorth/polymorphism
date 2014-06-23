@@ -15,7 +15,7 @@ trait Video {
 
 trait AdvancedAudio extends Audio {
   override def decodeAudio(audio: String): String =
-    ("audio" flatMap { c => List(c.toString, c.toString) }).mkString
+    (audio flatMap { c => List(c.toString, c.toString) }).mkString
 }
 
 trait AdvancedVideo extends Video {
