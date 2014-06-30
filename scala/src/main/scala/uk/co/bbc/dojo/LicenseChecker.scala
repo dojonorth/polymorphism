@@ -2,7 +2,7 @@ package uk.co.bbc.dojo
 
 class LicenseChecker {
   
-  def needsLicense: needsLicense =
+  def needsLicense: PartialFunction[Media, Boolean] =
     needsAudioLicense.orElse(needsVideoLicense).orElse(needsLicenseForLength)
 
   private val needsAudioLicense: PartialFunction[Media, Boolean] = {
